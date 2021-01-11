@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: #25274D;
+  background: #f9f5ff;
+  padding-bottom: 18px;
+}
+
+a {
+  color:  #33007f;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  color:  #897699;
+}
+
+.fixed {
+  position:fixed;
+}
+
+.centered-txt {
+  text-align: center;
+}
+
+.profilepic {
+  width: 150px;
+  border-radius: 80%;
+}
+
+code {
+  background: #f0f0f0;
+  color:  #33007f;
+  font-family: courier, monospace;
+  text-align: center;
+}
+
+.name {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.linkcol {
+  font-size: 110%;
+  font-weight: bold;
+  text-align: center;
+}
+.paper {
+  border-left: 2px solid #B39BC8;
+  padding-left: 4px;
+}
+
+.header {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.papertitle {
+  font-weight: bold;
+}
+
+.tagsep {
+  padding-left: 2px;
+  padding-right: 2px;
+}
