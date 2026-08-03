@@ -65,3 +65,12 @@ code {
   padding-left: 2px;
   padding-right: 2px;
 }
+
+/* Responsive layout for mobile screens */
+@media screen and (max-width: 768px) {
+  .fixed {
+    position: static; /* Removes fixed positioning on mobile */
+    text-align: center; /* Keeps menu items neat on mobile */
+    margin-bottom: 24px; /* Adds breathing room before main content */
+  }
+}
